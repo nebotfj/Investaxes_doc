@@ -8,16 +8,20 @@
   * [Vision](about-us/vision-mission-and-focus/vision.md)
   * [Mission](about-us/vision-mission-and-focus/mission.md)
   * [Focus](about-us/vision-mission-and-focus/focus.md)
-* [💖 Values](about-us/values.md)
+  * [💖 Values](about-us/vision-mission-and-focus/values.md)
+* [🚀 Un viaje por la aplicación](about-us/un-viaje-por-la-aplicacion/README.md)
+  * [Vision](about-us/un-viaje-por-la-aplicacion/vision.md)
+  * [Mission](about-us/un-viaje-por-la-aplicacion/mission.md)
+  * [Focus](about-us/un-viaje-por-la-aplicacion/focus.md)
 
 ## Team
 
 * [👋 Meet the Team!](team/meet-the-team.md)
 
-## Collaborating
+## Exchanges
 
-* [📊 Exportar tu Historial de Transacciones desde Binance a Investaxes.com](collaborating/exportar-tu-historial-de-transacciones-desde-binance-a-investaxes.com.md)
-* [📅 Meetings](collaborating/meetings.md)
+* [📊 Exportar tu Historial de Transacciones desde Binance a Investaxes.com](exchanges/exportar-tu-historial-de-transacciones-desde-binance-a-investaxes.com.md)
+* [📅 Meetings](exchanges/meetings.md)
 
 ## Policies
 
