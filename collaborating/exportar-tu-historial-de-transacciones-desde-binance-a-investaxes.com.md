@@ -1,13 +1,16 @@
 ---
 description: >-
-  Paso a paso sobre cómo obtener el historial completo de movimientos de Binance
-  y subirlo a Investaxes.com
+  Cómo obtener el historial completo de movimientos de Binance e importarlo a
+  Investaxes.com
 icon: coins
+cover: >-
+  https://images.unsplash.com/photo-1614787296891-d1b2b1aced36?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwzfHxiaW5hbmNlfGVufDB8fHx8MTc0Njc0MjAwMnww&ixlib=rb-4.1.0&q=85
+coverY: 0
 ---
 
-# 📊 Guía para Exportar tu Historial de Transacciones desde Binance a Investaxes.com
+# 📊 Exportar tu Historial de Transacciones desde Binance a Investaxes.com
 
-ión en tu cuenta de Binance
+### 1. Inicia sesión en tu cuenta de Binance
 
 * Accede a tu cuenta en [Binance](https://www.binance.com).
 
@@ -71,3 +74,5 @@ ión en tu cuenta de Binance
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
+> ⚠️ **Importante**:\
+> En caso de que hubiera alguna transacción nueva pendiente de analizar de aparecerá un mensaje de aviso y cuando lo analicemos te contactaremos para que puedas volverlo a importar.

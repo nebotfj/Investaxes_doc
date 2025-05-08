@@ -16,7 +16,7 @@
 
 ## Collaborating
 
-* [📊 Guía para Exportar tu Historial de Transacciones desde Binance a Investaxes.com](collaborating/guia-para-exportar-tu-historial-de-transacciones-desde-binance-a-investaxes.com.md)
+* [📊 Exportar tu Historial de Transacciones desde Binance a Investaxes.com](collaborating/exportar-tu-historial-de-transacciones-desde-binance-a-investaxes.com.md)
 * [📅 Meetings](collaborating/meetings.md)
 
 ## Policies
