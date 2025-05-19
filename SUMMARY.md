@@ -22,6 +22,7 @@
 
 * [📊 Exportar tu Historial de Transacciones desde Binance a Investaxes.com](exchanges/exportar-tu-historial-de-transacciones-desde-binance-a-investaxes.com.md)
 * [📊 Exportar tu Historial de Transacciones desde Coinbase a Investaxes.com](exchanges/exportar-tu-historial-de-transacciones-desde-coinbase-a-investaxes.com.md)
+* [Copy of 📊 Exportar tu Historial de Transacciones desde Bit2Me a Investaxes.com](exchanges/copy-of-exportar-tu-historial-de-transacciones-desde-bit2me-a-investaxes.com.md)
 * [📅 Meetings](exchanges/meetings.md)
 
 ## Policies
