@@ -20,7 +20,7 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-### 2. Accede a los statements
+### 3. Accede a los statements
 
 * Una vez estés en el apartado de [statements ](https://accounts.coinbase.com/statements)podrás descargar todas las transacciones.&#x20;
 * En "Date" escoge el año del que necesites sacar la información.&#x20;
@@ -32,13 +32,13 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-### 3. Inicia sesión en tu cuenta de investaxes.com
+### 4. Inicia sesión en tu cuenta de investaxes.com
 
 * Inicia sesión en [Investaxes](https://app.investaxes)
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-### 4. Sube tus archivos de Coinbase a Investaxes
+### 5. Sube tus archivos de Coinbase a Investaxes
 
 * Haz click en "Documentos" para ir al apartado de subida de datos  y una vez ahí escoge "Binance" para subir los archivos descargados anteriormente.
 
