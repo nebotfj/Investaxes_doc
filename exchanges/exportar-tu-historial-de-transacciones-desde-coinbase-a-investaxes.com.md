@@ -1,6 +1,6 @@
 ---
 description: >-
-  Cómo obtener el historial completo de movimientos de Binance e importarlo a
+  Cómo obtener el historial completo de movimientos de Coinbase e importarlo a
   Investaxes.com
 icon: coins
 cover: >-
@@ -40,7 +40,7 @@ coverY: 0
 
 ### 5. Sube tus archivos de Coinbase a Investaxes
 
-* Haz click en "Documentos" para ir al apartado de subida de datos  y una vez ahí escoge "Binance" para subir los archivos descargados anteriormente.
+* Haz click en "Documentos" para ir al apartado de subida de datos  y una vez ahí escoge el exchange  para subir los archivos descargados anteriormente.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
