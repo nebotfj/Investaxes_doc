@@ -4,7 +4,7 @@ description: >-
   Investaxes.com
 icon: coins
 cover: >-
-  https://images.unsplash.com/photo-1614787296891-d1b2b1aced36?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwzfHxiaW5hbmNlfGVufDB8fHx8MTc0Njc0MjAwMnww&ixlib=rb-4.1.0&q=85
+  https://images.unsplash.com/photo-1651130532935-2ef1634501fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxjb2luYmFzZXxlbnwwfHx8fDE3NDc2ODUyNTh8MA&ixlib=rb-4.1.0&q=85
 coverY: 0
 ---
 
