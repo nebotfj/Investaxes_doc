@@ -14,20 +14,20 @@ coverY: 0
 
 * Accede a tu cuenta en [Binance](https://www.binance.com).
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. Accede al Historial de Transacciones
 
 * Pasa el cursor sobre el icono de la **billetera** en la parte superior derecha de la página.
 * Haz clic en **"Historial de transacciones"**.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Selecciona la opción de Exportar
 
 * Ubica y haz clic en el **icono de exportación**, generalmente representado por una **flecha hacia abajo** o un **archivo**, dentro de la sección de historial.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Configura los parámetros de exportación
 
@@ -40,21 +40,21 @@ coverY: 0
 * **Moneda**:\
   Elige **Todo**.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 5. Genera el archivo
 
 * Haz clic en el botón **"Generar"** para iniciar la creación del archivo CSV.
 * Es posible que el proceso tarde algunos minutos, dependiendo del volumen de transacciones.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6. Descarga el archivo
 
 * Una vez que el archivo esté listo, recibirás una notificación por correo electrónico o mensaje de texto.
 * Vuelve a la ventana emergente de exportación y haz clic en **"Descargar"** junto al extracto generado.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 > ⚠️ **Importante**:\
 > El enlace de descarga del extracto **solo estará disponible durante 7 días**.\
