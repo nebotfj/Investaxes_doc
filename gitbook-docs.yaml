@@ -1,0 +1,62 @@
+# gitbook-docs.yaml — configuración de GitBook Site Git Sync
+#
+# Repositorio: nebotfj/Investaxes_doc
+# Rama:        Document
+#
+# NOTA: este archivo se ha generado SIN acceso al esquema canónico de
+# https://api.gitbook.com/gitbook-docs.yaml (bloqueado por red desde el
+# contenedor y desde el equipo local). La jerarquía reproduce la estructura
+# documentada del esquema —objeto raíz `site` con `title` y `structure`, y
+# nodos de tipo `space` / `section`— pero los nombres exactos de algunas
+# claves (en particular `children`) están pendientes de validar contra el
+# esquema real.
+#
+# Todos los `content.directory` declarados existen en el repositorio.
+
+site:
+  title: Investaxes Docs
+
+  structure:
+    # ---------------------------------------------------------------
+    # Guía principal. Su directorio es la raíz del repositorio, que es
+    # donde viven los capítulos y el SUMMARY.md que los ordena.
+    # ---------------------------------------------------------------
+    - type: section
+      key: documentacion
+      title: Documentación
+      default: true
+      children:
+        - type: space
+          key: guia-investaxes
+          title: Guía de Investaxes
+          default: true
+          content:
+            directory: .
+
+    # ---------------------------------------------------------------
+    # Guías de exportación por exchange.
+    # ---------------------------------------------------------------
+    - type: section
+      key: exchanges
+      title: Exchanges
+      children:
+        - type: space
+          key: exchanges-exportar-historial
+          title: Exportar tu historial
+          default: true
+          content:
+            directory: exchanges
+
+    # ---------------------------------------------------------------
+    # Recorrido por la aplicación.
+    # ---------------------------------------------------------------
+    - type: section
+      key: sobre-investaxes
+      title: Sobre Investaxes
+      children:
+        - type: space
+          key: un-viaje-por-la-aplicacion
+          title: Un viaje por la aplicación
+          default: true
+          content:
+            directory: about-us/un-viaje-por-la-aplicacion
