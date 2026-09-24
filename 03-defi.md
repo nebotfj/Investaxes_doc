@@ -1,66 +1,50 @@
-# DeFi y sus Desafíos Fiscales
+---
+description: Por qué operar en protocolos descentralizados complica la trazabilidad y cómo se resuelve.
+icon: network-wired
+---
 
-Si has usado wallets descentralizadas como **MetaMask, TrustWallet, Ledger**, has operado en **DeFi**.
+# DeFi y sus desafíos fiscales
 
-## ¿Qué es DeFi?
+Si has usado wallets autocustodiadas (MetaMask, Ledger, Trust Wallet), has operado en DeFi.
 
-**Definición:** Finanzas Descentralizadas. Operaciones financieras en blockchain sin intermediarios bancarios.
+## Los tres problemas estructurales
 
-**Características:**
-- ✅ No hay exchange central que guarde tus datos
-- ✅ Transacciones directas entre wallets
-- ✅ Plataformas como Uniswap, Aave, PancakeSwap, etc.
-- ✅ Smart contracts automatizan las operaciones
-- ❌ No hay un "informe fiscal" centralizado
+**1. No hay informe central.** Un exchange te entrega un archivo con tus operaciones. Los protocolos descentralizados no resumen nada: las transacciones solo existen en la blockchain.
 
-## Problemas de DeFi para la declaración
+**2. Aplicar FIFO es difícil.** Cuando haces una permuta en un DEX, la cadena registra "salió 1 ETH, entraron 2.000 USDC", pero no registra a qué precio compraste ese ETH ni cuándo. Determinar el coste original se complica aún más cuando los fondos han pasado por varios monederos.
 
-### Problema 1: Falta de historial centralizado
+**3. La importación deja lagunas.** Al volcar datos de múltiples redes y protocolos aparecen errores y huecos que hay que detectar y corregir manualmente.
 
-En un exchange como Binance, recibes un CSV con todas tus operaciones. En DeFi, **no existe ese CSV**. Las transacciones solo están en la blockchain pública.
-
-### Problema 2: Aplicar método FIFO es complicado
-
-Cuando haces un swap en Uniswap:
-- La blockchain registra: "1 ETH salió, 2000 USDC entraron"
-- **Pero NO registra:** El precio original del ETH que compraste
-- Para calcular ganancia, necesitas recordar: ¿cuándo compré este ETH? ¿A qué precio?
-
-### Problema 3: Múltiples blockchains y wallets
-
-Tu actividad DeFi se distribuye entre:
-- Ethereum, Polygon, Solana, Arbitrum, etc.
-- MetaMask, TrustWallet, wallets de hard wallet, etc.
-- Múltiples plataformas (Uniswap, Aave, Curve, etc.)
-
-Reconstruir todo manualmente es **prácticamente imposible**.
-
-## Ejemplo real de error en DeFi
+## Ejemplo de error por falta de trazabilidad
 
 ```
-Situación: Operaste en DeFi sin trazabilidad
+1. Enero 2023:  compras 1 ETH a 1.000 € en un exchange
+2. Febrero 2023: lo transfieres a tu wallet
+3. Marzo 2023:  permutas 1 ETH por USDC (ETH vale 2.000 €)
 
-1. Enero 2023: Compras 1 ETH a €1,000 en Coinbase
-2. Febrero 2023: Transfieres a MetaMask
-3. Marzo 2023: En Uniswap, cambias 1 ETH por 20 USDC (ETH vale €2,000)
-   Ganancia real: €2,000 - €1,000 = €1,000
+Resultado real: 2.000 - 1.000 = 1.000 € de ganancia
 
-SIN TRAZABILIDAD:
-- MetaMask solo muestra: "1 ETH salió, 20 USDC entraron"
-- No sabe que compraste ETH a €1,000
-- Calcula ganancia como: €2,000 (precio actual de venta) - €0 = €2,000
-
-IMPACTO:
-- Impuesto pagado correctamente: €1,000 × 21% = €210
-- Impuesto pagado sin trazabilidad: €2,000 × 21% = €420
-- Diferencia: €210 PAGADO DE MENOS = Multa + intereses + sanción
+Sin trazabilidad:
+- La wallet solo ve "salió 1 ETH, entraron USDC"
+- No conoce el coste de adquisición
+- Calcula 2.000 € de ganancia en lugar de 1.000 €
 ```
 
-## Cómo Investaxes resuelve DeFi
+## Las operaciones DeFi que más problemas dan
 
-1. **Conexión de wallets:** Importas tu dirección blockchain (sin claves privadas)
-2. **Escaneo on-chain:** Investaxes analiza toda la blockchain de esa dirección
-3. **Reconstrucción:** Conecta cada operación DeFi con su origen (compra en exchange)
-4. **Cálculo FIFO:** Aplica automáticamente FIFO a través de todas tus operaciones
-5. **Reporte unificado:** Un único reporte con DeFi + exchanges
+| Operación | Por qué complica la trazabilidad |
+|---|---|
+| **Pools de liquidez** | Generan un token nuevo (`MINTING`), recompensas periódicas y una quema al cerrar. Si no se leen como una posición única, aparecen como decenas de movimientos sueltos |
+| **Lending** | El principal recibido no es renta (`INCOME_NOT_TAXABLE`) pero su devolución sí computa (`EXPENSE`). Confundirlos altera el resultado en ambos extremos |
+| **Bridges y envoltorios** | Retiras BTC y te llega WBTC. No es una venta: es un `SWAP`. Si se lee como retirada sin destino, genera una venta vacía |
+| **Staking en protocolo** | El bloqueo puede emitir un token de representación. Ese token no es un ingreso, pero las recompensas sí |
+| **Permutas en DEX** | Coloquialmente se llaman *swaps*, pero fiscalmente casi siempre son `TRADE` y tributan (capítulo 8) |
+
+## Cómo lo resuelve Investaxes
+
+1. Importas tu dirección pública de blockchain (nunca claves privadas)
+2. El sistema escanea toda la actividad on-chain de esa dirección
+3. Enlaza cada operación DeFi con su origen en exchange
+4. Aplica FIFO de forma transversal a todas tus cuentas
+5. Genera un informe unificado que integra DeFi y exchanges
 

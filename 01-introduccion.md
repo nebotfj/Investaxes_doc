@@ -1,34 +1,31 @@
-# Introducción: ¿Qué es Investaxes?
+---
+description: Qué hace la plataforma y por qué la trazabilidad fiscal de criptoactivos es obligatoria en España.
+icon: circle-info
+---
 
-Investaxes es una plataforma integral española de gestión fiscal de criptomonedas diseñada para ayudarte a:
+# Introducción: qué es Investaxes
 
-## Funcionalidades principales
+Investaxes es una plataforma española de gestión fiscal de criptoactivos. Su función es reconstruir todo tu historial de operaciones —exchanges, wallets, DeFi— y convertirlo en un informe que puedas volcar directamente en tu declaración.
 
-- Descargar y organizar datos de transacciones de múltiples exchanges (Binance, Coinbase, Kraken, Bit2Me, etc.)
-- Importar direcciones blockchain para rastrear activos en diferentes cadenas (Ethereum, Solana, Polygon, etc.)
-- Clasificar movimientos automáticamente según su naturaleza fiscal
-- Generar reportes fiscales precisos que cumplen con requisitos AEAT
-- Analizar tu operativa completa en un único dashboard centralizado
-- **Trazabilidad completa:** Reconstruir toda tu actividad criptográfica
+**Qué hace la plataforma:**
 
-La plataforma es especialmente útil si tienes operaciones en:
-- ✅ Múltiples exchanges
-- ✅ Wallets descentralizadas (DeFi)
-- ✅ Staking y yield farming
-- ✅ Operaciones cross-chain
-- ✅ Complicadas transacciones internas
+- Obtiene datos de transacciones de distintos exchanges (Binance, Bit2Me, Coinbase, Kraken y otros mediante importación genérica)
+- Importa direcciones de blockchain para rastrear tu actividad on-chain
+- Clasifica cada movimiento según su naturaleza económica y fiscal
+- Detecta errores y alertas de trazabilidad antes de que contaminen el cálculo
+- Analiza tu operativa completa en un único panel
+- Genera informes financieros y fiscales conformes con los criterios de la AEAT
 
-## ¿Por qué Investaxes en España 2024-2026?
+**Por qué importa ahora:**
 
-En España, la fiscalidad de las criptomonedas es ahora **rigurosamente controlada**:
+1. **Obligación de reportes.** Los exchanges están obligados por ley a reportar datos de usuarios a la Agencia Tributaria. No es un acuerdo voluntario.
+2. **Modelo 721.** Si custodias criptoactivos por terceros fuera de España por encima del umbral legal, es obligatorio declararlos.
+3. **FIFO obligatorio.** Hacienda exige el cálculo de ganancias por método FIFO.
+4. **Sanciones.** El coste de regularizar es muy superior al de declarar bien desde el principio.
 
-1. **Obligación de Reportes:** Desde 2024, todos los exchanges están **obligados por ley** (no es un acuerdo voluntario) a reportar datos de usuarios a la Agencia Tributaria
-2. **Modelo 721:** Si tienes más de €50,000 en exchanges extranjeros, **obligatorio** reportar
-3. **Método FIFO:** Hacienda exige cálculo de ganancias por método FIFO (First In First Out)
-4. **Penalizaciones:** Multas de €1,000 a €10,000+ por incumplimiento
+## Cómo usar esta guía
 
-Investaxes te ayuda a:
-- Mantener un registro detallado y auditable de **todas** tus operaciones
-- Calcular automáticamente ganancias y pérdidas según criterios AEAT
-- Generar informes que **cumplen exactamente** con lo que Hacienda exige
-- **Evitar errores que resulten en sanciones** (la sanción es mucho más cara que el impuesto)
+Los capítulos siguen el trabajo real: primero los conceptos (2-3), después te registras e importas (4-6), luego aprendes a moverte por la plataforma y a leer lo que tienes (7-8), entiendes cómo tributa y dónde se declara (9-10), revisas y corriges (11-12), y por último generas el informe y declaras (13-14).
+
+Si ya tienes datos cargados y lo que necesitas es cuadrarlos, ve al **capítulo 11**. Si tienes un error concreto, búscalo en el **capítulo 12**. Si lo que buscas es en qué casilla va cada importe, ve al **capítulo 10**.
+

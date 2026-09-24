@@ -1,75 +1,74 @@
-# Conceptos clave: Trazabilidad y Método FIFO
+---
+description: Los tres conceptos que sostienen todo el cálculo fiscal. Si uno falla, el informe entero falla.
+icon: lightbulb
+---
 
-Antes de usar Investaxes, necesitas entender DOS conceptos fundamentales que Hacienda exige.
+# Conceptos clave: trazabilidad, FIFO y FMV
 
-## ¿Qué es la Trazabilidad?
+Tres conceptos sostienen todo el cálculo. Si alguno falla, el informe entero falla.
 
-**Definición:** La trazabilidad es reconstruir el **historial completo** de tu actividad criptográfica para obtener un registro claro y detallado de:
-- El **origen** de cada criptomoneda (precio de compra, fecha, dónde se compró)
-- Todas las **transferencias** entre plataformas y wallets
-- La **fecha y precio** de cada venta o intercambio
-- Cálculo correcto de **ganancias/pérdidas**
+## Trazabilidad
 
-### ¿Por qué es imprescindible la trazabilidad?
+La trazabilidad consiste en **volcar, revisar y corregir** toda la información relacionada con tus transacciones para reconstruir el historial completo: el origen de cada unidad de criptomoneda (cuándo se adquirió, a qué precio, dónde), todas las transferencias entre plataformas y wallets, y la fecha y precio de cada transmisión.
 
-Imagina este escenario:
+No es un proceso automático. Es un trabajo de reconstrucción que requiere revisión.
+
+**Por qué es imprescindible:**
 
 ```
-1. Compras 1 BTC el 1/1/2023 a €30,000 en Binance
-2. Transferencias ese BTC el 15/2/2023 a Kraken
-3. Vendes ese BTC el 1/3/2023 a €42,000
+1. Compras 1 BTC el 1/1/2023 a 30.000 € en el Exchange A
+2. Lo transfieres el 15/2/2023 al Exchange B
+3. Lo vendes el 1/3/2023 por 42.000 €
 
-¿Cuál es tu ganancia?
-Correcta: €42,000 - €30,000 = €12,000
+Ganancia real: 42.000 - 30.000 = 12.000 €
 
-PERO...
-Si solo usas el informe de Kraken:
-- Kraken sabe que vendiste 1 BTC por €42,000
-- Pero Kraken NO sabe dónde lo compraste ni a qué precio
-- Kraken asume que el precio de compra es €0
-- Por lo tanto, calcula ganancia como €42,000 (INCORRECTO)
-- Pagarías impuesto sobre €42,000 en lugar de €12,000
-- ¡Diferencia: €6,300 de impuesto extra!
+Si solo usas el informe del Exchange B:
+- Sabe que vendiste 1 BTC por 42.000 €
+- NO sabe cuándo, ni dónde, ni a qué precio lo compraste
+- Asume coste de adquisición 0
+- Calcula una ganancia de 42.000 € en lugar de 12.000 €
 ```
 
-**Este es exactamente el problema que Investaxes resuelve.**
+El exchange donde vendes no tiene forma de saber lo que ocurrió antes de que el activo llegara a él. Esa laguna es la que rellena la trazabilidad.
+
+**Los cinco pasos del proceso:**
+
+1. Consolidar las transacciones de todos los exchanges y wallets, calientes y frías
+2. Identificar los errores de importación
+3. Analizar la cadena para localizar las transacciones perdidas
+4. Clasificar correctamente cada tipo de operativa (trading, staking, DeFi)
+5. Recalcular ganancias y pérdidas aplicando FIFO
+
+Los capítulos 11 y 12 desarrollan cada uno de estos pasos.
 
 ## Método FIFO (First In, First Out)
 
-### ¿Qué es?
-
-FIFO significa que cuando vendes una criptomoneda, se asume que vendes las **primeras unidades que compraste**.
-
-### Ejemplo práctico
+Cuando transmites una criptomoneda, se considera que transmites **las primeras unidades que adquiriste**.
 
 ```
 Historial de Bitcoin:
-- Enero 2023: Compras 1 BTC a €30,000
-- Marzo 2023: Compras 1 BTC a €35,000
-- Mayo 2023: Compras 1 BTC a €40,000
+- Enero 2023:  compras 1 BTC a 30.000 €
+- Marzo 2023:  compras 1 BTC a 35.000 €
+- Mayo 2023:   compras 1 BTC a 40.000 €
 
-Total: 3 BTC por €105,000
-
-Luego en Junio 2023, vendes 2 BTC a €45,000 cada uno = €90,000 total
+Junio 2023: vendes 2 BTC a 45.000 € cada uno
 
 Con FIFO:
-- El primer BTC vendido (€45,000) viene de la compra de enero (€30,000)
-  Ganancia: €45,000 - €30,000 = €15,000
-- El segundo BTC vendido (€45,000) viene de la compra de marzo (€35,000)
-  Ganancia: €45,000 - €35,000 = €10,000
-- Total ganancia: €25,000
-
-Total BTC restante: 1 BTC (el de mayo a €40,000)
+- 1.ª venta ← compra de enero:  45.000 - 30.000 = 15.000 € de ganancia
+- 2.ª venta ← compra de marzo:  45.000 - 35.000 = 10.000 € de ganancia
+- Ganancia total: 25.000 €
+- Queda 1 BTC en cartera, con coste 40.000 €
 ```
 
-### ¿Por qué FIFO y no LIFO o Average Cost?
+**Por qué FIFO y por qué es global.** La ley establece que, cuando existen bienes homogéneos, se consideran transmitidos los adquiridos en primer lugar. Los criptoactivos del mismo protocolo son bienes homogéneos entre sí. Y hay un matiz decisivo: **que los adquieras y transmitas en exchanges distintos no altera esa homogeneidad**. El cálculo es global sobre toda tu cartera, sin separar por plataforma.
 
-La Agencia Tributaria española (AEAT) acepta explícitamente **SOLO FIFO** para criptomonedas. Es un requisito legal, no opcional.
+Eso convierte la trazabilidad completa en un requisito, no en una buena práctica: no puedes calcular bien un exchange aislado, porque su FIFO depende de lo que compraste en los demás. El detalle jurídico está en el capítulo 9.
 
-### ¿Cómo Investaxes aplica FIFO?
+**La consecuencia que casi nadie anticipa:** como cada venta consume la compra más antigua disponible, **un error en una transacción de 2021 desplaza el cálculo de todas las ventas posteriores**. No son errores aislados: se propagan hacia adelante. Por eso el orden de corrección importa tanto (capítulo 11).
 
-Investaxes automáticamente:
-1. Rastrea el orden cronológico de cada compra
-2. Cuando vendes, empareja la venta con la compra más antigua disponible
-3. Calcula ganancia/pérdida para esa pareja específica
-4. Repite para cada unidad vendida
+## FMV (Fair Market Value)
+
+El **FMV** es el valor de mercado del activo en el momento exacto en que entra en tu patrimonio. Es el dato que fija el **coste de adquisición** de todo lo que recibes sin comprarlo: una recompensa de staking, un airdrop, una recompensa de minería.
+
+El FMV cumple doble función: es la **base imponible del ingreso** el día que lo recibes, y es el **coste de adquisición** el día que lo vendas. Si recibes un token valorado en 100 € y lo vendes después por 150 €, tributas 100 € como ingreso y 50 € como ganancia patrimonial —no 150 € dos veces.
+
