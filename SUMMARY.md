@@ -1,18 +1,18 @@
 # Table of contents
 
 * [README](README.md)
-* [Introducción: qué es Investaxes](01-introduccion.md)
-* [Conceptos clave: trazabilidad, FIFO y FMV](02-conceptos-clave.md)
-* [DeFi y sus desafíos fiscales](03-defi.md)
-* [Primeros pasos: registro y configuración inicial](04-primeros-pasos.md)
-* [Antes de importar: el inventario de fuentes](05-inventario-fuentes.md)
-* [Importación de datos](06-importacion-datos.md)
-* [Navegación de la plataforma](07-navegacion.md)
-* [Tipos de movimiento y su tratamiento fiscal](08-tipos-movimientos.md)
-* [Fiscalidad: cómo tributa cada operación y por qué](09-fiscalidad.md)
-* [Cómo se declara: Modelo 100, Patrimonio y Modelo 721](10-como-se-declara.md)
-* [Metodología de revisión: qué mirar y en qué orden](11-metodologia-revision.md)
-* [Catálogo de errores: diagnóstico y corrección](12-catalogo-errores.md)
-* [El informe fiscal: estructura y lectura](13-informe-fiscal.md)
-* [Flujo completo, checklists y conclusión](14-flujo-checklists.md)
-* [Preguntas frecuentes](15-faq.md)
+
+## Un viaje por la aplicación
+
+* [Un viaje por la aplicación](about-us/un-viaje-por-la-aplicacion/README.md)
+* [Portfolio](about-us/un-viaje-por-la-aplicacion/vision.md)
+* [Balances](about-us/un-viaje-por-la-aplicacion/mission.md)
+* [Documentos](about-us/un-viaje-por-la-aplicacion/focus.md)
+* [Transacciones](about-us/un-viaje-por-la-aplicacion/transacciones.md)
+* [Reportes](about-us/un-viaje-por-la-aplicacion/reportes.md)
+
+## Exchanges
+
+* [Desde Binance](exchanges/exportar-tu-historial-de-transacciones-desde-binance-a-investaxes.com.md)
+* [Desde Bit2Me](exchanges/copy-of-exportar-tu-historial-de-transacciones-desde-bit2me-a-investaxes.com.md)
+* [Desde Coinbase](exchanges/exportar-tu-historial-de-transacciones-desde-coinbase-a-investaxes.com.md)
