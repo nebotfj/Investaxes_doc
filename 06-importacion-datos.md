@@ -116,21 +116,21 @@ Cargar todo a la vez y revisar al final multiplica el trabajo: cuando algo no cu
 
 **Paso 1.** Accede a tu cuenta en Kraken.com.
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FMYah3ozmKsmC2pkv8x7v%2Fimage.png?alt=media&token=a3ab0989-81ef-42ba-a903-3d2a4b06d171" alt="Inicio de sesión en Kraken"><figcaption></figcaption></figure>
+> **Captura pendiente** · Inicio de sesión en Kraken
 
 **Paso 2.** Pulsa la **campana** (esquina superior derecha) y después el **icono de engranaje**.
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2Fg2t7fbdpvw7EKvA9lOuq%2Fimage.png?alt=media&token=eef2c172-c1a7-4775-86cf-bffcf6166197" alt="Campana de notificaciones"><figcaption></figcaption></figure>
+> **Captura pendiente** · Campana de notificaciones
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FIbDykdY1yPaSM5qgfZVK%2Fimage.png?alt=media&token=bcc12a2c-1514-41a0-b19f-441362b083b5" alt="Icono de engranaje"><figcaption></figcaption></figure>
+> **Captura pendiente** · Icono de engranaje
 
 **Paso 3.** Ve a **Documentos**. En **Nueva exportación**: elige el año, selecciona formato **CSV** y pulsa **GENERAR**.
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FSNkX42cH3Poh5exR9rnW%2Fimage.png?alt=media&token=70f29626-3e2d-4f62-914f-b7bf83763530" alt="Sección Documentos de Kraken"><figcaption></figcaption></figure>
+> **Captura pendiente** · Sección Documentos de Kraken
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FBBi80yswgTNgtfBUOSrk%2Fimage.png?alt=media&token=60839fac-411d-4531-b185-ca1e40929eef" alt="Nueva exportación"><figcaption></figcaption></figure>
+> **Captura pendiente** · Nueva exportación
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2F5ENYbxENtWRTGzMqaeu0%2Fimage.png?alt=media&token=0474a87a-afeb-436a-b080-0328ca5a3c0c" alt="Generación del CSV"><figcaption></figcaption></figure>
+> **Captura pendiente** · Generación del CSV
 
 > **Aviso:** necesitas un archivo por año.
 
@@ -191,7 +191,7 @@ El error más común es **subir el CSV de un exchange bajo otro exchange distint
 
 Para exchanges sin integración directa existe una plantilla Excel descargable desde la documentación, acompañada de un documento adicional que explica cómo debe escribirse cada tipo de transacción.
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FKcVqa0SYUy7noPU8nf32%2FInvestaxes_template_image.png?alt=media&token=10ced5c2-3f2e-48f1-8106-c7e8efde1cd5" alt="Estructura de la plantilla de importación genérica"><figcaption></figcaption></figure>
+> **Captura pendiente** · Estructura de la plantilla de importación genérica
 
 | Columna | Contenido |
 |---|---|

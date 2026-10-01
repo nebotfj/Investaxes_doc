@@ -20,7 +20,7 @@ El menú lateral izquierdo organiza la plataforma en seis secciones. Cada una re
 
 ## 7.1 Dashboard
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FZraUvr098dLFUvm6ipLb%2Fimage.png?alt=media&token=fa653a5f-b8c9-45a1-a4b5-dccb1d39ffa9" alt="Dashboard de Investaxes"><figcaption></figcaption></figure>
+> **Captura pendiente** · Dashboard de Investaxes
 
 **Qué es.** La pantalla a la que llegas al entrar en la plataforma. Es el panel de control: una vista de conjunto del estado de tu cuenta, con el menú de secciones a la izquierda.
 
@@ -32,7 +32,7 @@ El menú lateral izquierdo organiza la plataforma en seis secciones. Cada una re
 
 ## 7.2 Portfolio
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FXfgSNJMAgUFqrqOdIjfw%2Fimage.png?alt=media&token=5c538db5-be02-411e-ad04-ed2dc5d988c9" alt="Portfolio"><figcaption></figcaption></figure>
+> **Captura pendiente** · Portfolio
 
 **Qué es.** La composición de tu cartera: qué activos tienes y cómo se reparte tu patrimonio entre ellos, entre las distintas redes y entre las distintas cuentas.
 
@@ -51,7 +51,7 @@ Trabaja el Portfolio antes de bajar al detalle: es más rápido detectar aquí q
 
 ## 7.3 Balances
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2F0AKPcQlicrYk5JSnp1z4%2Fimage.png?alt=media&token=1692de5e-cd61-48a2-bf47-3a0817b7e7bc" alt="Balances"><figcaption></figcaption></figure>
+> **Captura pendiente** · Balances
 
 **Qué es.** Tus saldos, desglosados por cuenta y por criptomoneda. A diferencia del Portfolio —que te enseña la foto agregada—, Balances te enseña **cuánto hay de cada activo en cada sitio**.
 
@@ -74,17 +74,17 @@ Cada vez que importas una fuente, vienes aquí y comparas, moneda a moneda, con 
 
 ## 7.4 Accounts
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FLeeFotwIojlNE74FIQPd%2Fimage.png?alt=media&token=e5557959-1e29-4b1f-8627-1d03a209a879" alt="Accounts"><figcaption></figcaption></figure>
+> **Captura pendiente** · Accounts
 
 **Qué es.** El inventario de fuentes conectadas: todos los exchanges y todas las direcciones de blockchain que has incorporado a tu cuenta.
 
 **Para qué la usas.** Es el punto de entrada de los datos y el sitio donde compruebas qué tienes conectado. Desde aquí importas direcciones de blockchain, con el flujo que vimos en 6.7.
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FWy7XXDv9AmBaB0sFtqon%2Fimage.png?alt=media&token=179dd312-352d-4a19-a40b-7312dc08c480" alt="Importar transacciones"><figcaption></figcaption></figure>
+> **Captura pendiente** · Importar transacciones
 
 **El flujo de importación:** pulsa **Importar transacciones**, selecciona la red, introduce la dirección pública y pulsa **🚀 Iniciar importación**.
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FRmoCYkp1r81qTYetPMcz%2Fimage.png?alt=media&token=0a28b921-2abf-4b8d-903c-31a53c9c03cb" alt="Selección de red e importación"><figcaption></figcaption></figure>
+> **Captura pendiente** · Selección de red e importación
 
 **Qué revisar aquí:**
 
@@ -97,7 +97,7 @@ Cada vez que importas una fuente, vienes aquí y comparas, moneda a moneda, con 
 
 ## 7.5 Transactions
 
-<figure><img src="https://1069131240-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FF1Q2dlYB2duyEqJswk4i%2Fuploads%2FSpIOjukDi6QNa4at0EgS%2Fimage.png?alt=media&token=d7622442-145c-4f13-98e8-2d1adfdffe59" alt="Transactions"><figcaption></figcaption></figure>
+> **Captura pendiente** · Transactions
 
 **Qué es.** El registro completo de todos tus movimientos, de todas las cuentas, ordenados en el tiempo. **Es tu fuente de verdad**: lo que aparezca aquí es lo que entra en el cálculo, y lo que no aparezca no existe a efectos del informe.
 
